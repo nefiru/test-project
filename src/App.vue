@@ -1,6 +1,7 @@
 <template>
 	<v-app id="app">
 		<header-search />
+
 		<div v-if="totalCount > 0">
 			<list />
 			<pagination />
@@ -24,7 +25,7 @@ import FooterCard from '@/components/Footer.vue';
 
 export default {
 	components: {
-		HeaderSearch, 
+		HeaderSearch,
 		List,
 		Pagination,
 		FooterCard
